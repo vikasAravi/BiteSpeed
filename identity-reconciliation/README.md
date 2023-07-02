@@ -23,11 +23,11 @@
 # Docker 
 
 - All the dependencies like postgres and everything are already added, and it's just a click away to start and use it.
-- command to start the service -
-      - [0]  cd identity-reconciliation 
-      - [1]  start the DB - `docker-compose up -d database` ( make sure DB server is accepting the requests )
-      - [2]  start the server - `docker-compose up -d server` 
-    [NOTE] - follow the order of the commands 
+- command to start the service ( follow the steps in order )
+  - [0]  cd identity-reconciliation
+  - [1]  start the DB - `docker-compose up -d database` ( make sure DB server is accepting the requests )
+  - [2]  start the server - `docker-compose up -d server`
+
 
 # health check CURL 
 
